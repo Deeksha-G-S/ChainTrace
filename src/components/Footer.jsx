@@ -94,11 +94,11 @@ const NavList = styled.ul`
 `;
 
 const NavL=styled.div`
-border:1px solid #FFFFFF;
+//border:1px solid #FFFFFF;
 border-radius:8px;
 display:flex;
 // align-items:center;
-//justify-content:center
+//justify-content:space-between;
 flex-direction:column;`;
 
 const NavItem = styled.li`
@@ -118,6 +118,8 @@ const CopyRight = styled.div`
   color:${({ theme }) => theme.text_secondary};
 `;
 
+
+
 // Footer component using styled components
 
 
@@ -132,48 +134,31 @@ const Footer= () => {
           <FooterText>
            SUPPLY CHAIN MANAGEMENT IN FMCG USING BLOCKCHAIN 
           </FooterText>
+          <FooterText>
+          </FooterText>
           <NavList>
-           
            <NavL>
-           <NavItem>
-            1AT20CS020
-            </NavItem>
             <NavItem>
               CHAITRA R
             </NavItem>
            </NavL>
-
            <NavL>
-           <NavItem>
-            1AT20CS026
-            </NavItem>
             <NavItem>
               DEEKSHA G SHANBHAG
             </NavItem>
            </NavL>
            <NavL>
-           <NavItem>
-            1AT20CS067
-            </NavItem>
             <NavItem>
               NIYATHI V
             </NavItem>
            </NavL>
-
            <NavL>
-           <NavItem>
-            1AT20CS079
-            </NavItem>
             <NavItem>
               RAJESHWARI L JHADHAV
             </NavItem>
            </NavL>
-
-
-           
           </NavList>
         </FooterSection>
-       
       </ContentWrapper>
       <CopyRight>© 2024 BATCH  ATRIA INSTITUTE OF TECHNOLOGY</CopyRight>
     </Container>
