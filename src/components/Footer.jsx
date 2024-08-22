@@ -132,7 +132,7 @@ const Footer= () => {
         <FooterSection>
           <LogoImage src={images.LogoImg}alt="Logo" />
           <FooterText>
-           SUPPLY CHAIN MANAGEMENT IN FMCG USING BLOCKCHAIN 
+           SUPPLY CHAIN MANAGEMENT IN FMCG USING BLOCKCHAIN TECHNOLOGY
           </FooterText>
           <FooterText>
           </FooterText>
